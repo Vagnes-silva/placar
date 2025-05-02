@@ -1,0 +1,67 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+    height:100vh; 
+}
+
+ .time1{      
+    background-color: #1e1e1e;
+    width: 200px;
+    height: 250px; 
+    box-shadow: 0 0 20px rgba(0, 255, 170, 0.3);
+}
+
+.time2{   
+    margin-top: 30px;   
+    background-color: #1e1e1e;
+    width: 200px;
+    height: 250px; 
+    box-shadow: 0 0 20px rgba(255, 0, 174, 0.3);
+}
+.nome-do-time{
+    text-align: center;
+    font-size: 25px;
+    color: white
+}
+
+.pontos{
+    height: 60%;
+    background-color: #363535;
+    text-align: center;
+    font-size: 100px;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+.btn-up-time1, .btn-up-time2, .btn-down-time1, .btn-down-time2{
+    width: 50px;
+    height: 50px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    background-color:#322a2a;
+    height: 70px;
+    padding: 10px
+}
+
+.btn-zera-placar{
+    width: 200px;
+    height:50px;
+    color: white;
+    font-size:20px;
+    background-color: rgb(239, 14, 14);
+    margin-top: 10px;
+    border-radius:10px;
+}
