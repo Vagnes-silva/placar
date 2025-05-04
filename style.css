@@ -10,7 +10,7 @@
     flex-direction:column;
     align-items: center;
     justify-content: center;
-    background-color: #121212;
+    background-color: #d1cbcb;
     height:100vh; 
 }
 
@@ -18,7 +18,8 @@
     background-color: #1e1e1e;
     width: 200px;
     height: 250px; 
-    box-shadow: 0 0 20px rgba(0, 255, 170, 0.3);
+    box-shadow: 0 0 20px rgba(46, 29, 152, 0.6);
+    border-radius: 15px 15px 0 0;
 }
 
 .time2{   
@@ -26,7 +27,8 @@
     background-color: #1e1e1e;
     width: 200px;
     height: 250px; 
-    box-shadow: 0 0 20px rgba(255, 0, 174, 0.3);
+    box-shadow: 0 0 20px rgba(255, 0, 174, 0.6);
+    border-radius: 15px 15px 0 0;
 }
 .nome-do-time{
     text-align: center;
@@ -41,6 +43,7 @@
     font-size: 100px;
     font-style: normal;
     padding-top: 20px;
+    color:#cccccc;
 }
 
 .btn-up-time1, .btn-up-time2, .btn-down-time1, .btn-down-time2{
